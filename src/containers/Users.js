@@ -42,14 +42,14 @@ class UsersWithReduxSaga extends React.Component {
 
   sortByAsc = () => {
     let users = this.state.users.sort((a, b) =>
-      a.title.localeCompare(b.title)
+      a.currency.localeCompare(b.currency)
     );
     this.setState({ users: users });
   };
 
   sortByDesc = () => {
     let sortedDescending = this.state.users.sort((a, b) =>
-      b.title.localeCompare(a.title)
+      b.currency.localeCompare(a.currency)
     );
     this.setState({
       users: sortedDescending,
@@ -65,7 +65,7 @@ class UsersWithReduxSaga extends React.Component {
       if (inputText === "") {
         return el;
       } else {
-        return el.title.toLowerCase().includes(inputText);
+        return el.currency.toLowerCase().includes(inputText);
       }
     });
     this.setState({
@@ -106,40 +106,40 @@ class UsersWithReduxSaga extends React.Component {
         </div>
         <div className="style">
           <table>
-            <caption style={{ align: "right" }}>Todos List</caption>
+            <caption style={{ align: "right" }}>Currency List</caption>
             <thead>
               <tr>
                 <th>S.NO</th>
                 <th>
                   <button type="button" onClick={this.sortByAsc}>
-                    Title Asc
+                    Currency Asc
                   </button>
                   <button type="button" onClick={this.sortByDesc}>
                     {" "}
-                    Title desc
+                    Currency desc
                   </button>
                 </th>
-                <th>UserId</th>
-                <th>Completed</th>
+                <th>Abbreviation</th>
+                <th>Symbol</th>
               </tr>
             </thead>
             <tbody>
               {this.state.inputText === ""
                 ? this.state.users.length > 0 &&
                   this.state.users.map((u, i) => (
-                    <tr key={u.id}>
-                      <td>{u.id}</td>
-                      <td>{u.title}</td>
-                      <td>{u.userId}</td>
-                      <td>{u.completed === true ? "true" : "false"}</td>
+                    <tr key={i}>
+                       <td>{u.id}</td>
+                      <td>{u.currency}</td>
+                      <td>{u.abbreviation}</td>
+                      <td>{u.symbol}</td>
                     </tr>
                   ))
                 : this.state.filteredData.map((u, i) => (
-                    <tr key={u.id}>
+                    <tr key={i}>
                        <td>{u.id}</td>
-                      <td>{u.title}</td>
-                      <td>{u.userId}</td>
-                      <td>{u.completed === true ? "true" : "false"}</td>
+                      <td>{u.currency}</td>
+                      <td>{u.abbreviation}</td>
+                      <td>{u.symbol}</td>
                     </tr>
                   ))}
             </tbody>

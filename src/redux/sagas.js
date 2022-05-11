@@ -8,7 +8,7 @@ import axios from "axios";
 
 function* fetchUser({start, end}) {
   try {
-    let users = yield call(axios.get, `http://localhost:3000/todos/?_start=${start}&_end=${end}`);
+    let users = yield call(axios.get, `http://localhost:3000/currencies/?_start=${start}&_end=${end}`);
     console.log("asga",users.data)
     yield put({ type: LOAD_USERS_SUCCESS, data: users.data });
   } catch (error) {
