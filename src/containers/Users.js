@@ -102,7 +102,7 @@ class UsersWithReduxSaga extends React.Component {
     return (
       <>
         <div style={{ display: "flex", "justify-content": "center" }}>
-          <input placeholder="Enter First Name" onChange={this.inputHandler} />
+          <input placeholder="Enter Currency" onChange={this.inputHandler} />
         </div>
         <div className="style">
           <table>
