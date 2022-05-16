@@ -1,5 +1,6 @@
 import * as React from "react";
 import { connect } from "react-redux";
+import ProgressBar from "../components/progressbar";
 import { loadUsers } from "../redux/actions";
 import "./style.css";
 
@@ -42,14 +43,14 @@ class UsersWithReduxSaga extends React.Component {
 
   sortByAsc = () => {
     let users = this.state.users.sort((a, b) =>
-      a.currency.localeCompare(b.currency)
+      a.full_name.localeCompare(b.full_name)
     );
     this.setState({ users: users });
   };
 
   sortByDesc = () => {
     let sortedDescending = this.state.users.sort((a, b) =>
-      b.currency.localeCompare(a.currency)
+      b.full_name.localeCompare(a.full_name)
     );
     this.setState({
       users: sortedDescending,
@@ -65,7 +66,7 @@ class UsersWithReduxSaga extends React.Component {
       if (inputText === "") {
         return el;
       } else {
-        return el.currency.toLowerCase().includes(inputText);
+        return el.full_name.toLowerCase().includes(inputText);
       }
     });
     this.setState({
@@ -102,25 +103,26 @@ class UsersWithReduxSaga extends React.Component {
     return (
       <>
         <div style={{ display: "flex", "justify-content": "center" }}>
-          <input placeholder="Enter Currency" onChange={this.inputHandler} />
+          <input placeholder="Enter Employee Name" onChange={this.inputHandler} />
         </div>
         <div className="style">
           <table>
-            <caption style={{ align: "right" }}>Currency List</caption>
+            <caption style={{ align: "right" }}>Employees List</caption>
             <thead>
               <tr>
                 <th>S.NO</th>
                 <th>
                   <button type="button" onClick={this.sortByAsc}>
-                    Currency Asc
+                  Full Name Asc
                   </button>
                   <button type="button" onClick={this.sortByDesc}>
                     {" "}
-                    Currency desc
+                    Full Name desc
                   </button>
                 </th>
-                <th>Abbreviation</th>
-                <th>Symbol</th>
+                <th>Desgination</th>
+                <th>Salary</th>
+                <th>Salary in %</th>
               </tr>
             </thead>
             <tbody>
@@ -129,17 +131,19 @@ class UsersWithReduxSaga extends React.Component {
                   this.state.users.map((u, i) => (
                     <tr key={i}>
                        <td>{u.id}</td>
-                      <td>{u.currency}</td>
-                      <td>{u.abbreviation}</td>
-                      <td>{u.symbol}</td>
+                      <td>{u.full_name}</td>
+                      <td>{u.job}</td>
+                      <td>{u.salary}</td>
+                      <td><ProgressBar bgcolor={"#6a1b9a"} completed={Math.round(u.salary.substring(1) / 100) }/></td>
                     </tr>
                   ))
                 : this.state.filteredData.map((u, i) => (
                     <tr key={i}>
                        <td>{u.id}</td>
-                      <td>{u.currency}</td>
-                      <td>{u.abbreviation}</td>
-                      <td>{u.symbol}</td>
+                      <td>{u.full_name}</td>
+                      <td>{u.job}</td>
+                      <td>{u.salary}</td>
+                      <td><ProgressBar bgcolor={"#6a1b9a"} completed={Math.round(u.salary.substring(1) / 100) }/></td>
                     </tr>
                   ))}
             </tbody>

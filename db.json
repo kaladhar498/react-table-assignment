@@ -1600,7 +1600,7 @@
       "symbol": "£"
     },
     {
-      "id": 32, 
+      "id": 32,
       "currency": "El Salvador Colon",
       "abbreviation": "SVC",
       "symbol": "$"
@@ -1736,6 +1736,608 @@
       "currency": "Kazakhstan Tenge",
       "abbreviation": "KZT",
       "symbol": "лв"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "full_name": "Barbara Few",
+      "job": "Nurse Practicioner",
+      "salary": "$1872.23"
+    },
+    {
+      "id": 2,
+      "full_name": "Toma Meade",
+      "job": "Internal Auditor",
+      "salary": "$4092.79"
+    },
+    {
+      "id": 3,
+      "full_name": "Tildie Struis",
+      "job": "Software Consultant",
+      "salary": "$9173.51"
+    },
+    {
+      "id": 4,
+      "full_name": "Moise Wigginton",
+      "job": "Librarian",
+      "salary": "$5850.44"
+    },
+    {
+      "id": 5,
+      "full_name": "Karen List",
+      "job": "Occupational Therapist",
+      "salary": "$2127.35"
+    },
+    {
+      "id": 6,
+      "full_name": "Denny Elcomb",
+      "job": "Actuary",
+      "salary": "$2807.59"
+    },
+    {
+      "id": 7,
+      "full_name": "Ronda Craydon",
+      "job": "Cost Accountant",
+      "salary": "$8864.76"
+    },
+    {
+      "id": 8,
+      "full_name": "Doti Cowern",
+      "job": "Computer Systems Analyst I",
+      "salary": "$387.96"
+    },
+    {
+      "id": 9,
+      "full_name": "Corny Powter",
+      "job": "Compensation Analyst",
+      "salary": "$4249.90"
+    },
+    {
+      "id": 10,
+      "full_name": "Gigi Spellesy",
+      "job": "Systems Administrator I",
+      "salary": "$7046.35"
+    },
+    {
+      "id": 11,
+      "full_name": "Ede Veal",
+      "job": "Software Test Engineer III",
+      "salary": "$860.21"
+    },
+    {
+      "id": 12,
+      "full_name": "Pebrook MacDowal",
+      "job": "Product Engineer",
+      "salary": "$9652.95"
+    },
+    {
+      "id": 13,
+      "full_name": "Hamilton Gawkroge",
+      "job": "Professor",
+      "salary": "$9558.88"
+    },
+    {
+      "id": 14,
+      "full_name": "Dalila Shevell",
+      "job": "Account Executive",
+      "salary": "$8995.30"
+    },
+    {
+      "id": 15,
+      "full_name": "Quintilla Tettley",
+      "job": "Help Desk Operator",
+      "salary": "$3840.66"
+    },
+    {
+      "id": 16,
+      "full_name": "Lawton Brade",
+      "job": "Analog Circuit Design manager",
+      "salary": "$9415.36"
+    },
+    {
+      "id": 17,
+      "full_name": "Melisent Hadlington",
+      "job": "Environmental Specialist",
+      "salary": "$2724.58"
+    },
+    {
+      "id": 18,
+      "full_name": "Adriana Duckfield",
+      "job": "Structural Engineer",
+      "salary": "$9092.16"
+    },
+    {
+      "id": 19,
+      "full_name": "Gordon Rudkin",
+      "job": "Payment Adjustment Coordinator",
+      "salary": "$8598.48"
+    },
+    {
+      "id": 20,
+      "full_name": "Susy Geddis",
+      "job": "VP Marketing",
+      "salary": "$4494.55"
+    },
+    {
+      "id": 21,
+      "full_name": "Karoly Sinnatt",
+      "job": "Information Systems Manager",
+      "salary": "$7645.83"
+    },
+    {
+      "id": 22,
+      "full_name": "Parnell Cockley",
+      "job": "Recruiter",
+      "salary": "$6739.15"
+    },
+    {
+      "id": 23,
+      "full_name": "Adelheid Dalliwatr",
+      "job": "VP Accounting",
+      "salary": "$5430.38"
+    },
+    {
+      "id": 24,
+      "full_name": "Mano Gillfillan",
+      "job": "Financial Advisor",
+      "salary": "$9332.24"
+    },
+    {
+      "id": 25,
+      "full_name": "Quintilla Broggelli",
+      "job": "Actuary",
+      "salary": "$7085.15"
+    },
+    {
+      "id": 26,
+      "full_name": "Sean Girardoni",
+      "job": "Professor",
+      "salary": "$8779.75"
+    },
+    {
+      "id": 27,
+      "full_name": "Enos Allain",
+      "job": "Legal Assistant",
+      "salary": "$6857.85"
+    },
+    {
+      "id": 28,
+      "full_name": "Benedicta Rentilll",
+      "job": "Software Test Engineer II",
+      "salary": "$6986.55"
+    },
+    {
+      "id": 29,
+      "full_name": "Giacinta Moxstead",
+      "job": "Geologist II",
+      "salary": "$5403.92"
+    },
+    {
+      "id": 30,
+      "full_name": "Tatiania Di Batista",
+      "job": "Research Assistant II",
+      "salary": "$1701.44"
+    },
+    {
+      "id": 31,
+      "full_name": "Eachelle Barendtsen",
+      "job": "Safety Technician I",
+      "salary": "$7093.44"
+    },
+    {
+      "id": 32,
+      "full_name": "Lorene Padly",
+      "job": "Financial Advisor",
+      "salary": "$7437.23"
+    },
+    {
+      "id": 33,
+      "full_name": "Doyle Oloshin",
+      "job": "Graphic Designer",
+      "salary": "$8683.93"
+    },
+    {
+      "id": 34,
+      "full_name": "Zacherie Jerdein",
+      "job": "Structural Analysis Engineer",
+      "salary": "$6749.11"
+    },
+    {
+      "id": 35,
+      "full_name": "Perkin Toghill",
+      "job": "Dental Hygienist",
+      "salary": "$1854.37"
+    },
+    {
+      "id": 36,
+      "full_name": "Alla Redmile",
+      "job": "Help Desk Technician",
+      "salary": "$4206.31"
+    },
+    {
+      "id": 37,
+      "full_name": "Tanney Hlavac",
+      "job": "Staff Accountant I",
+      "salary": "$3772.64"
+    },
+    {
+      "id": 38,
+      "full_name": "Kikelia Worg",
+      "job": "Senior Developer",
+      "salary": "$5735.07"
+    },
+    {
+      "id": 39,
+      "full_name": "Gabbi Pennycord",
+      "job": "Information Systems Manager",
+      "salary": "$1458.87"
+    },
+    {
+      "id": 40,
+      "full_name": "Lori Swindle",
+      "job": "Analog Circuit Design manager",
+      "salary": "$6613.41"
+    },
+    {
+      "id": 41,
+      "full_name": "Stacy MacAllister",
+      "job": "Teacher",
+      "salary": "$7382.49"
+    },
+    {
+      "id": 42,
+      "full_name": "Jerrie Martinot",
+      "job": "Account Coordinator",
+      "salary": "$2283.49"
+    },
+    {
+      "id": 43,
+      "full_name": "Lyndell Lung",
+      "job": "Actuary",
+      "salary": "$9147.39"
+    },
+    {
+      "id": 44,
+      "full_name": "Angeli Baudinet",
+      "job": "Associate Professor",
+      "salary": "$4667.21"
+    },
+    {
+      "id": 45,
+      "full_name": "Klarrisa Bridgen",
+      "job": "Graphic Designer",
+      "salary": "$2040.45"
+    },
+    {
+      "id": 46,
+      "full_name": "Gusella Allsup",
+      "job": "Health Coach IV",
+      "salary": "$7719.11"
+    },
+    {
+      "id": 47,
+      "full_name": "Reg Kinningley",
+      "job": "Sales Associate",
+      "salary": "$4951.87"
+    },
+    {
+      "id": 48,
+      "full_name": "Pauletta Napper",
+      "job": "Cost Accountant",
+      "salary": "$5376.08"
+    },
+    {
+      "id": 49,
+      "full_name": "Lissi Stafford",
+      "job": "Payment Adjustment Coordinator",
+      "salary": "$9074.77"
+    },
+    {
+      "id": 50,
+      "full_name": "Adler Harford",
+      "job": "Technical Writer",
+      "salary": "$7803.65"
+    },
+    {
+      "id": 51,
+      "full_name": "Caterina Frango",
+      "job": "Teacher",
+      "salary": "$7344.24"
+    },
+    {
+      "id": 52,
+      "full_name": "Karylin Blumsom",
+      "job": "Office Assistant II",
+      "salary": "$3076.01"
+    },
+    {
+      "id": 53,
+      "full_name": "Kiley Sones",
+      "job": "Food Chemist",
+      "salary": "$8444.71"
+    },
+    {
+      "id": 54,
+      "full_name": "Krissy Bim",
+      "job": "Account Coordinator",
+      "salary": "$5108.77"
+    },
+    {
+      "id": 55,
+      "full_name": "Candi Basson",
+      "job": "Staff Accountant II",
+      "salary": "$8287.36"
+    },
+    {
+      "id": 56,
+      "full_name": "Lucian Lenaghen",
+      "job": "Computer Systems Analyst II",
+      "salary": "$4722.47"
+    },
+    {
+      "id": 57,
+      "full_name": "Bathsheba Strewthers",
+      "job": "Director of Sales",
+      "salary": "$9355.79"
+    },
+    {
+      "id": 58,
+      "full_name": "Ab Andrelli",
+      "job": "Recruiting Manager",
+      "salary": "$388.05"
+    },
+    {
+      "id": 59,
+      "full_name": "Ysabel Thickpenny",
+      "job": "Senior Quality Engineer",
+      "salary": "$9559.38"
+    },
+    {
+      "id": 60,
+      "full_name": "Giles Yuryev",
+      "job": "Director of Sales",
+      "salary": "$1432.95"
+    },
+    {
+      "id": 61,
+      "full_name": "Lotte Sheer",
+      "job": "Structural Analysis Engineer",
+      "salary": "$9841.57"
+    },
+    {
+      "id": 62,
+      "full_name": "Jarrod Lighterness",
+      "job": "Analyst Programmer",
+      "salary": "$2603.59"
+    },
+    {
+      "id": 63,
+      "full_name": "Aarika Lidster",
+      "job": "Senior Quality Engineer",
+      "salary": "$5902.94"
+    },
+    {
+      "id": 64,
+      "full_name": "Brien Rickaby",
+      "job": "Senior Sales Associate",
+      "salary": "$5467.22"
+    },
+    {
+      "id": 65,
+      "full_name": "Serge Pahlsson",
+      "job": "Assistant Media Planner",
+      "salary": "$8968.33"
+    },
+    {
+      "id": 66,
+      "full_name": "Elisabeth Blunt",
+      "job": "Database Administrator III",
+      "salary": "$3730.30"
+    },
+    {
+      "id": 67,
+      "full_name": "Amargo Willeson",
+      "job": "Editor",
+      "salary": "$3771.61"
+    },
+    {
+      "id": 68,
+      "full_name": "Winne Josefsohn",
+      "job": "Human Resources Manager",
+      "salary": "$9490.69"
+    },
+    {
+      "id": 69,
+      "full_name": "Bone Cuttles",
+      "job": "Quality Control Specialist",
+      "salary": "$3005.90"
+    },
+    {
+      "id": 70,
+      "full_name": "Adrien MacFarlane",
+      "job": "Associate Professor",
+      "salary": "$7004.10"
+    },
+    {
+      "id": 71,
+      "full_name": "Shawnee Storton",
+      "job": "Social Worker",
+      "salary": "$5453.61"
+    },
+    {
+      "id": 72,
+      "full_name": "Lucienne Bendle",
+      "job": "Automation Specialist II",
+      "salary": "$2943.91"
+    },
+    {
+      "id": 73,
+      "full_name": "Norrie Woodwin",
+      "job": "Health Coach III",
+      "salary": "$9539.59"
+    },
+    {
+      "id": 74,
+      "full_name": "Melly Kilfoyle",
+      "job": "Nuclear Power Engineer",
+      "salary": "$1596.15"
+    },
+    {
+      "id": 75,
+      "full_name": "Bailey Coulman",
+      "job": "Office Assistant I",
+      "salary": "$5228.48"
+    },
+    {
+      "id": 76,
+      "full_name": "Hubey Kenwell",
+      "job": "Software Engineer III",
+      "salary": "$2914.00"
+    },
+    {
+      "id": 77,
+      "full_name": "Manda Zapata",
+      "job": "Editor",
+      "salary": "$8739.24"
+    },
+    {
+      "id": 78,
+      "full_name": "Desmund O'Sullivan",
+      "job": "Human Resources Assistant IV",
+      "salary": "$3811.74"
+    },
+    {
+      "id": 79,
+      "full_name": "Zarah Kruger",
+      "job": "Structural Engineer",
+      "salary": "$2199.33"
+    },
+    {
+      "id": 80,
+      "full_name": "Lorilee Maddin",
+      "job": "Developer II",
+      "salary": "$2103.07"
+    },
+    {
+      "id": 81,
+      "full_name": "Ivan Duggen",
+      "job": "Accountant IV",
+      "salary": "$9153.79"
+    },
+    {
+      "id": 82,
+      "full_name": "Chas Worts",
+      "job": "Assistant Professor",
+      "salary": "$4526.23"
+    },
+    {
+      "id": 83,
+      "full_name": "Paxton Huniwall",
+      "job": "Graphic Designer",
+      "salary": "$1889.17"
+    },
+    {
+      "id": 84,
+      "full_name": "Ricardo Pittem",
+      "job": "Nurse",
+      "salary": "$1282.20"
+    },
+    {
+      "id": 85,
+      "full_name": "Spence Bartolomeotti",
+      "job": "Statistician IV",
+      "salary": "$6049.04"
+    },
+    {
+      "id": 86,
+      "full_name": "Celisse Papis",
+      "job": "Media Manager II",
+      "salary": "$8227.36"
+    },
+    {
+      "id": 87,
+      "full_name": "Sydney Ebsworth",
+      "job": "Accountant III",
+      "salary": "$2644.73"
+    },
+    {
+      "id": 88,
+      "full_name": "Cobby Madigan",
+      "job": "Geological Engineer",
+      "salary": "$3693.67"
+    },
+    {
+      "id": 89,
+      "full_name": "Morgan Gotthard",
+      "job": "Pharmacist",
+      "salary": "$3143.52"
+    },
+    {
+      "id": 90,
+      "full_name": "Benedick Graal",
+      "job": "Accountant II",
+      "salary": "$7281.09"
+    },
+    {
+      "id": 91,
+      "full_name": "Roxine Cabena",
+      "job": "Senior Editor",
+      "salary": "$1960.83"
+    },
+    {
+      "id": 92,
+      "full_name": "Emory Peerless",
+      "job": "Assistant Professor",
+      "salary": "$6434.09"
+    },
+    {
+      "id": 93,
+      "full_name": "Katey Spriggs",
+      "job": "Senior Sales Associate",
+      "salary": "$8293.46"
+    },
+    {
+      "id": 94,
+      "full_name": "Mellicent Darragh",
+      "job": "Operator",
+      "salary": "$6325.49"
+    },
+    {
+      "id": 95,
+      "full_name": "Briana Flaonier",
+      "job": "Nurse Practicioner",
+      "salary": "$4307.52"
+    },
+    {
+      "id": 96,
+      "full_name": "Guss Noen",
+      "job": "Sales Associate",
+      "salary": "$1283.25"
+    },
+    {
+      "id": 97,
+      "full_name": "Hillier Delhanty",
+      "job": "Research Assistant III",
+      "salary": "$2639.24"
+    },
+    {
+      "id": 98,
+      "full_name": "Margie Streatfield",
+      "job": "Administrative Officer",
+      "salary": "$1663.68"
+    },
+    {
+      "id": 99,
+      "full_name": "Omero Tilliards",
+      "job": "Health Coach II",
+      "salary": "$1788.25"
+    },
+    {
+      "id": 100,
+      "full_name": "Gerta Grinaugh",
+      "job": "Account Coordinator",
+      "salary": "$2545.06"
     }
   ]
 }
